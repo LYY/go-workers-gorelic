@@ -25,7 +25,7 @@ func main(){
 
 
   gorelic.InitNewrelicAgent("YOUR_NEWRELIC_LICENSE_KEY", "YOUR_APPLICATION_NAME", true)
-  workers.Middleware.Append(&GorelicMiddleware{})
+  workers.Middleware.Append(&gorelic.GorelicMiddleware{})
 
   workers.Run()
 }
