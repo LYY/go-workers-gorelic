@@ -2,7 +2,7 @@ package gorelic
 
 import (
 	"fmt"
-	"github.com/jrallison/go-workers"
+	"github.com/LYY/go-workers"
 	metrics "github.com/yvasiyarov/go-metrics"
 	"github.com/yvasiyarov/gorelic"
 	"time"
